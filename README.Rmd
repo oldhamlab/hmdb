@@ -1,0 +1,47 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# hmdb
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This package contains data sets from the Human Metabolome Database:
+
+- `hmdb_proteins`: A list of metabolites and protein associations. Metabolites 
+without known protein associations were excluded. Proteins without HGNC symbols 
+were also excluded. 
+
+## Installation
+
+You can install the development version of hmdb like so:
+
+``` r
+remotes::install_github("oldhamlab/hmdb")
+```
+
+## Data Use
+
+From https://hmdb.ca/about: 
+
+HMDB is offered to the public as a freely available resource. Use and 
+re-distribution of the data, in whole or in part, for commercial purposes 
+requires explicit permission of the authors and explicit acknowledgment of the 
+source material (HMDB) and the original publication (see below). We ask that 
+users who download significant portions of the database cite the HMDB paper in 
+any resulting publications.
+
+Wishart DS, Guo AC, Oler E, et al., HMDB 5.0: the Human Metabolome Database for 
+2022. Nucleic Acids Res. 2022. Jan 7;50(D1):D622–31. PMID: 34986597. 
