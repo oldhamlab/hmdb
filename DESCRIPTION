@@ -19,3 +19,5 @@ Depends:
 LazyData: true
 Imports: 
     tibble
+URL: https://github.com/oldhamlab/hmdb
+BugReports: https://github.com/oldhamlab/hmdb/issues
